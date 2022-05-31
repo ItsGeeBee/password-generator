@@ -1,4 +1,7 @@
 // Assignment Code
+
+// Variables for content of password //
+
 const characterAmountRange = document.getElementById('characterAmountRange')
 const characterAmountNumber = document.getElementById('characterAmountNumber')
 const includeUppercaseElement = document.getElementById('includeUppercase')
@@ -18,9 +21,11 @@ const SYMBOL_CHAR_CODES = arrayFromLowToHigh(33, 47).concat(
   arrayFromLowToHigh(123, 126)
 )
 
+// Password legnth and range determined by user//
 characterAmountNumber.addEventListener('input', syncCharacterAmount)
 characterAmountRange.addEventListener('input', syncCharacterAmount)
 
+// Button function //
 form.addEventListener('submit', e => {
   e.preventDefault()
   const characterAmount = characterAmountNumber.value
