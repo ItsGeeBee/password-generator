@@ -3,7 +3,7 @@
 *::after {
   box-sizing: border-box;
 }
-/* html document padding and margin setting it to a default of 0 */
+/* html document padding and margin setting*/
 html {
   margin: 0;
   padding: 0;
@@ -103,11 +103,9 @@ h1 {
 
 /* password section class */
 .password-display {
-  /* browser preference */
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  /* browser preference end */
   border: none;
   display: block;
   width: 100%;
