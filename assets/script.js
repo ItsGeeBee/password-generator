@@ -22,6 +22,8 @@ var SYMBOL_CHAR_CODES = arrayFromLowToHigh(33, 47).concat(
 charAmount.addEventListener('input', matchInput)
 charRange.addEventListener('input', matchInput)
 
+// Button click event //
+
 form.addEventListener('submit', e => {
   e.preventDefault()
   var characterAmount = charAmount.value

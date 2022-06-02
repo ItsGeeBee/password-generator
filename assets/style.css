@@ -27,7 +27,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
-/* form class determins the uppercase, numbers and symbols layout */
+
 .form {
   display: grid;
   grid-template-columns: auto auto;
@@ -43,11 +43,11 @@ label {
   display: flex;
   align-items: center;
 }
-/* number class that determins the width of the number input */
+
 .number-input {
   width: 3rem;
 }
-/* heading styles */
+/* heading styling */
 header {
   text-align: center;
   padding: 20px;
@@ -58,7 +58,7 @@ h1 {
   text-align: center;
   margin: auto;
 }
-/* card class determining the white surrounding box */
+
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -135,7 +135,7 @@ h1 {
   cursor: pointer;
   border-radius: 25px;
 }
-/* button class changing the background color once hovered */
+/* button class with hovered puesdo */
 .btn:hover {
   background-color: black;
 }
@@ -143,7 +143,7 @@ button[disabled] {
   cursor: default;
   background: #c0c7cf;
 }
-/* determins element changes at set screen size */
+/* Responsive layout */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
@@ -274,7 +274,7 @@ button[disabled] {
     resize: none;
     overflow: hidden;
   }
-  /* determins element changes at set screen size */
+  /* smaller responsive layout */
   @media (max-width: 690px) {
     .btn {
       font-size: 1rem;
