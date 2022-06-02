@@ -31,6 +31,8 @@
 
 ## Link to Deployed Website ##
 
-
+https://itsgeebee.github.io/password-generator/
 
 ## Website look example ##
+
+<img src="images\website-preview.png"  width="800px" height="auto">
